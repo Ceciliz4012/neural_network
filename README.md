@@ -11,4 +11,8 @@ The goal is to learn from the training set a classifier that can classify new em
 ## About
 The algorithm is applied to both the synthetic dataset and the read spam dataset. 
 
-For each dataset, train the model with both a logistic sigmoid activation function and a ReLU activation function.
+For each dataset, trained the model with both a logistic sigmoid activation function and a ReLU activation function.
+
+In each case, considered d1 in the range {1, 5, 10, 15, 25, 50}, and performed 5-fold cross validation to select d1 from this range. Then, created a plot of the training, test, and cross-validation errors as a function of the number of hidden units d1.
+
+Data analysis and visualization are in the analysis.pdf file.
